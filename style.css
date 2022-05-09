@@ -1,0 +1,43 @@
+h1 {
+  background-color: beige;
+  color: black;
+}
+
+h2 {
+  font-size: 2em;
+  background-color: rgb(194, 194, 147);
+  color: white;
+}
+
+body {
+  background-color: rgb(231, 231, 201);
+  font-size: 16px;
+
+}
+
+p {
+  font-family: fantasy, monospace;
+}
+
+
+.better {
+  text-align: center;
+  background-color: rgb(194, 194, 147);
+}
+
+.button {
+  background-color: red;
+  color: white;
+  text-decoration: none;
+  padding: 2px;
+}
+
+.list-style {
+  background-color: maroon;
+  color: white;
+  font-weight: bold;
+  font-style: italic;
+  line-height: 40px;
+  text-align: center;
+  text-decoration: underline;
+}
