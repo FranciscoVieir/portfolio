@@ -1,8 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 h1 {
   background-color: beige;
   color: black;
+  text-align: center;
+}
+#header {
+  border: solid blue;
+  margin-bottom: 10px;
+
+}
+#minhafoto {
+border: solid red;
+margin-left: 2px;
+display: inline-block;
+
 }
 
+.sobremim {
+  border: solid green;
+  padding: 30px, 70px;
+  margin-bottom: 1px;
+  display: inline-block;
+}
+.paragrafo {
+  display: inline-block;
+}
 h2 {
   font-size: 2em;
   background-color: rgb(194, 194, 147);
@@ -30,6 +55,8 @@ p {
   color: white;
   text-decoration: none;
   padding: 2px;
+  line-height: 28px;
+  
 }
 
 .list-style {
@@ -40,4 +67,8 @@ p {
   line-height: 40px;
   text-align: center;
   text-decoration: underline;
+}
+
+li:active {
+  color: rgb(102, 49, 49);
 }
