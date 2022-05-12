@@ -8,26 +8,13 @@ h1 {
   text-align: center;
 }
 #header {
-  border: solid blue;
   margin-bottom: 10px;
 
 }
-#minhafoto {
-border: solid red;
-margin-left: 2px;
-display: inline-block;
-
+.container {
+ display: flex;
 }
 
-.sobremim {
-  border: solid green;
-  padding: 30px, 70px;
-  margin-bottom: 1px;
-  display: inline-block;
-}
-.paragrafo {
-  display: inline-block;
-}
 h2 {
   font-size: 2em;
   background-color: rgb(194, 194, 147);
